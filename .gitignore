@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyd
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NLTK Data
+nltk_data/
+*.zip
+
+# HuggingFace Cache
+~/.cache/huggingface/
+.cache/huggingface/
+transformers_cache/
+datasets/
+
+# TensorBoard logs
+logs/
+checkpoints/
+events.out.tfevents.*
+
+# Environment files
+.env
+.env.*
+
+# Model files
+*.h5
+*.ckpt
+*.pb
+*.pt
+*.tflite
+
+# OneDrive temp files
+~$*
+
+# Misc
+*.log
+*.tmp
+*.bak
